@@ -1,0 +1,32 @@
+https://gitlab.com/api/v4/projects/54240888/repository/files/package-manager/raw?ref=main
+https://gitlab.com/api/v4/projects/54240888/repository/files/box64-binaries.tar.xz/raw?ref=main
+https://gitlab.com/api/v4/projects/54240888/repository/files/box64-binaries.tar.xz/raw?ref=main
+https://gitlab.com/api/v4/projects/54240888/repository/files/box64-binaries.tar.xz/raw?ref=main
+https://gitlab.com/api/v4/projects/54240888/repository/files/box64-binaries.tar.xz/raw?ref=main
+
+
+curl --request GET \
+ --url 'https://gitlab.com/api/v4/projects/54240888/repository/files/box64-binaries.tar.xz/raw?ref=main' \
+ --header 'accept: */*' \
+ --header 'accept-encoding: gzip' \
+ --header 'connection: Keep-Alive' \
+ --header 'host: gitlab.com' \
+ --header 'private-token: glpat-h5r7HjKoPKZPxmfg79xs' \
+ --header 'user-agent: Wget/1.21.2'
+--output test.xz
+
+
+/glibc/opt/package-manager/temp/box64-binaries.tar.xz
+/glibc/opt/package-manager/temp/dxvk.tar.xz
+/glibc/opt/package-manager/temp/glibc-prefix.tar.xz
+/glibc/opt/package-manager/temp/prefix-apps.tar.xz
+/glibc/opt/package-manager/temp/scripts.tar.xz
+/glibc/opt/package-manager/temp/turnip.tar.xz
+/glibc/opt/package-manager/temp/virgl-mesa.tar.xz
+/glibc/opt/package-manager/temp/wined3d.tar.xz
+/glibc/opt/package-manager/temp/libudev.tar.xz
+/glibc/opt/package-manager/temp/en-ru-locale.tar.xz
+/glibc/opt/package-manager/temp/wine-9.3-vanilla-wow64.tar.xz
+
+
+wget --header "PRIVATE-TOKEN: glpat-h5r7HjKoPKZPxmfg79xs" "https://gitlab.com/api/v4/projects/54240888/repository/files/scripts.tar.xz/raw?ref=main" -O scripts.tar.xz
